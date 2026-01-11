@@ -24,7 +24,8 @@ fun NoteListItem(note: Note){
         elevation = CardDefaults.cardElevation(12.dp),
         colors = CardDefaults.cardColors(
             containerColor = Color(note.color)),
-        border = BorderStroke(1.dp,Color.Black)
+        border = BorderStroke(1.dp,Color.Black),
+        modifier = Modifier.padding(4.dp)
     ) {
         Column(
             modifier = Modifier
